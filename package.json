@@ -1,0 +1,42 @@
+{
+  "name": "pensieve-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "classnames": "^2.2.6",
+    "debounce": "^1.1.0",
+    "deni-react-treeview": "^0.2.20",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "flow-bin": "^0.74.0",
+    "gravatar": "^1.6.0",
+    "js-cookie": "^2.2.0",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.15",
+    "marked": "^0.4.0",
+    "moment": "^2.22.2",
+    "octicons": "^7.3.0",
+    "pluralize": "^7.0.0",
+    "primer-blankslate": "^1.4.6",
+    "primer-markdown": "^3.7.6",
+    "query-string": "^5.0.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-ga": "^2.5.3",
+    "react-hot-keys": "^2.6.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.4",
+    "react-test-renderer": "^16.4.0",
+    "recharts": "^1.0.0-beta.10",
+    "semantic-ui-react": "^0.80.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  }
+}

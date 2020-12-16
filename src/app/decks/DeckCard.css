@@ -1,0 +1,26 @@
+.deck-card.ui.segment {
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  hyphens: auto;
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.05);
+}
+
+@media (min-width: 1200px) {
+  .deck-card {
+    height: 160px;
+  }
+}
+
+.deck-card:hover {
+  text-decoration: none;
+}
+
+.deck-card .ui.blue.progress .bar {
+  background-color: #1574fb;
+}
+
+.deck-card .deck-tags {
+  overflow-y: hidden;
+  height: 25px;
+}

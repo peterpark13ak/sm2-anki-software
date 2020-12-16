@@ -1,0 +1,149 @@
+.landing-page .navbar {
+  background: #1574fb !important;
+}
+
+.landing-page .navbar-brand {
+  color: white !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.navbar-landing .nav-link {
+  color: white !important;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.landing-hero {
+  background: linear-gradient(0, #0061e6, #1574fb);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -6em;
+  min-height: 65vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+@media (min-width: 768px) {
+  .landing-hero {
+    min-height: 85vh;
+  }
+}
+
+.landing-page .btn-light {
+  color: #1574fb;
+  background: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.landing-page .btn-light:focus,
+.landing-page .btn-light:active,
+.landing-page .btn-light:hover {
+  transition: 0.1s all ease-in-out;
+  color: #1574fb;
+  background: #e4efff;
+}
+
+.landing-hero .landing-image {
+  margin-right: -80px;
+  margin-left: 20px;
+  display: none;
+}
+
+.landing-hero .hero-text {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .landing-hero .hero-text {
+    text-align: left;
+  }
+}
+
+.landing-page .btn-cta {
+  border-radius: 0;
+}
+
+.landing-howItWorks .info-text {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .landing-howItWorks .info-text {
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .landing-hero .landing-image {
+    display: block;
+  }
+}
+
+.landing-copy {
+  max-width: 475px;
+}
+
+.landing-box h3.header {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+.landing-box p {
+  line-height: 1.75em;
+  font-size: 1.1em;
+}
+
+.landing-howItWorks {
+  padding: 150px 0;
+}
+.landing-howItWorks .lead {
+  line-height: 1.65em;
+}
+.landing-howItWorks img {
+  width: 600px !important;
+}
+
+.landing-howItWorks strong,
+.landing-info strong {
+  font-weight: 600;
+}
+.landing-info .btn-primary {
+  padding: 10px 15px;
+}
+
+.landing-box {
+  background: #e4efff;
+  padding: 115px 0;
+}
+
+.landing-box .border-box {
+  border: 5px solid #0365d6;
+  height: 180px;
+}
+
+@media (min-width: 768px) {
+  .landing-box .border-box {
+    height: 240px;
+  }
+}
+
+.landing-box .border-box .ui.header {
+  color: #0365d6 !important;
+  font-size: 24px;
+}
+
+.landing-info .ui.header {
+  color: #0365d6 !important;
+}
+
+.landing-info {
+  background: #ffffff;
+  padding: 115px 0;
+}
+.landing-info .lead {
+  line-height: 1.8em;
+  font-weight: 300;
+}
+
+.text-blue {
+  color: #0365d6 !important;
+}

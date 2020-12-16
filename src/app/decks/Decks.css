@@ -1,0 +1,29 @@
+.decks-container-header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.decks-container-actions {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  width: auto;
+}
+
+.decks-container-search {
+  flex-grow: 1;
+  margin-bottom: 6px;
+  position: relative;
+  background: none;
+  flex-grow: none;
+  margin-right: 24px;
+  margin-bottom: 0;
+}
+
+.deni-react-treeview-container {
+  width: 100%;
+}

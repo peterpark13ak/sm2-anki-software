@@ -1,0 +1,23 @@
+.card-home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-home-panel {
+  align-items: center;
+  display: flex;
+  hyphens: auto;
+  justify-content: center;
+  min-height: 375px;
+  padding: 12px;
+  position: relative;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.card-home-panel .card-strength {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+}

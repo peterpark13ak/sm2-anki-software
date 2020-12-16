@@ -1,0 +1,15 @@
+.review-container-panel {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  hyphens: auto;
+  justify-content: center;
+  min-height: 375px;
+  position: relative;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.review-container .interval {
+  color: #073a83;
+}
